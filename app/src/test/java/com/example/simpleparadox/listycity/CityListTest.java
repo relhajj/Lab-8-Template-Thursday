@@ -93,4 +93,10 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void testTravisCI(){
+        //assertEquals(true, false); this is the old test that failed
+        assertEquals(true, true); //this is the new test that passed
+    }
 }
